@@ -1,0 +1,15 @@
+C:\event-driven-orders_Net\Orders.Application\bin\Debug\net10.0\Orders.Application.deps.json
+C:\event-driven-orders_Net\Orders.Application\bin\Debug\net10.0\Orders.Application.dll
+C:\event-driven-orders_Net\Orders.Application\bin\Debug\net10.0\Orders.Application.pdb
+C:\event-driven-orders_Net\Orders.Application\bin\Debug\net10.0\Orders.Domain.dll
+C:\event-driven-orders_Net\Orders.Application\bin\Debug\net10.0\Orders.Domain.pdb
+C:\event-driven-orders_Net\Orders.Application\obj\Debug\net10.0\Orders.Application.csproj.AssemblyReference.cache
+C:\event-driven-orders_Net\Orders.Application\obj\Debug\net10.0\Orders.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\event-driven-orders_Net\Orders.Application\obj\Debug\net10.0\Orders.Application.AssemblyInfoInputs.cache
+C:\event-driven-orders_Net\Orders.Application\obj\Debug\net10.0\Orders.Application.AssemblyInfo.cs
+C:\event-driven-orders_Net\Orders.Application\obj\Debug\net10.0\Orders.Application.csproj.CoreCompileInputs.cache
+C:\event-driven-orders_Net\Orders.Application\obj\Debug\net10.0\Orders.A.715EABD9.Up2Date
+C:\event-driven-orders_Net\Orders.Application\obj\Debug\net10.0\Orders.Application.dll
+C:\event-driven-orders_Net\Orders.Application\obj\Debug\net10.0\refint\Orders.Application.dll
+C:\event-driven-orders_Net\Orders.Application\obj\Debug\net10.0\Orders.Application.pdb
+C:\event-driven-orders_Net\Orders.Application\obj\Debug\net10.0\ref\Orders.Application.dll

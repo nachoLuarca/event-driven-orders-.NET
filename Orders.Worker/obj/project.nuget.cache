@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fNGv7VIeZ14=",
+  "success": true,
+  "projectFilePath": "C:\\event-driven-orders_Net\\Orders.Worker\\Orders.Worker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\IgLua\\.nuget\\packages\\rabbitmq.client\\6.6.0\\rabbitmq.client.6.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

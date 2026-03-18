@@ -1,0 +1,88 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Orders.Worker/1.0.0": {
+        "dependencies": {
+          "Orders.Infrastructure": "1.0.0",
+          "RabbitMQ.Client": "6.6.0"
+        },
+        "runtime": {
+          "Orders.Worker.dll": {}
+        }
+      },
+      "RabbitMQ.Client/6.6.0": {
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.6.0.0"
+          }
+        }
+      },
+      "Orders.Application/1.0.0": {
+        "dependencies": {
+          "Orders.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Orders.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Orders.Domain/1.0.0": {
+        "runtime": {
+          "Orders.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Orders.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Orders.Application": "1.0.0",
+          "RabbitMQ.Client": "6.6.0"
+        },
+        "runtime": {
+          "Orders.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Orders.Worker/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RabbitMQ.Client/6.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-klht0KBLO7xs/uIn8uejq1VC5wJJ8dHJSm2GmFmJHWQnFzWK5YTNUta6IrnuzitR1T5psxIuqwdQqalbTLPtcA==",
+      "path": "rabbitmq.client/6.6.0",
+      "hashPath": "rabbitmq.client.6.6.0.nupkg.sha512"
+    },
+    "Orders.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Orders.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Orders.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
