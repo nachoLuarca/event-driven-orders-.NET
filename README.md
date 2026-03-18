@@ -55,8 +55,8 @@ Cliente → Orders.Api → RabbitMQ → Orders.Worker
 ### 1️⃣ Clonar repositorio
 
 ```bash
-git clone https://github.com/nachoLuarca/event-driven-orders.git
-cd event-driven-orders
+git clone https://github.com/nachoLuarca/event-driven-orders-.NET.git
+cd event-driven-orders-.NET
 ```
 
 ---
