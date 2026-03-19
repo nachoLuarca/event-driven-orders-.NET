@@ -8,6 +8,13 @@ namespace Orders.Infrastructure;
 
 public class RabbitMQConsumer
 {
+    private readonly ApplicationDbContext _db;
+
+    public RabbitMQConsumer(ApplicationDbContext db)
+    {
+        _db = db;
+    }
+
     public void Start()
     {
         var factory = new ConnectionFactory()
@@ -20,7 +27,7 @@ public class RabbitMQConsumer
 
         channel.QueueDeclare(
             queue: "orders",
-            durable: false, // igual que el publisher por ahora
+            durable: false,
             exclusive: false,
             autoDelete: false,
             arguments: null
@@ -41,7 +48,19 @@ public class RabbitMQConsumer
 
             if (order != null)
             {
-                Console.WriteLine($"✅ Orden procesada: {order.Id}");
+                try
+                {
+                    Console.WriteLine("👉 Guardando en DB...");
+
+                    _db.Orders.Add(order);
+                    _db.SaveChanges();
+
+                    Console.WriteLine($"💾 Orden guardada: {order.Id}");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"❌ Error guardando: {ex.Message}");
+                }
             }
         };
 
@@ -51,4 +70,4 @@ public class RabbitMQConsumer
             consumer: consumer
         );
     }
-}
+}       

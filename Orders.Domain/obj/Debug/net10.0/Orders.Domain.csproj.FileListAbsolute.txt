@@ -5,6 +5,7 @@ C:\event-driven-orders_Net\Orders.Domain\obj\Debug\net10.0\Orders.Domain.Generat
 C:\event-driven-orders_Net\Orders.Domain\obj\Debug\net10.0\Orders.Domain.AssemblyInfoInputs.cache
 C:\event-driven-orders_Net\Orders.Domain\obj\Debug\net10.0\Orders.Domain.AssemblyInfo.cs
 C:\event-driven-orders_Net\Orders.Domain\obj\Debug\net10.0\Orders.Domain.csproj.CoreCompileInputs.cache
+C:\event-driven-orders_Net\Orders.Domain\obj\Debug\net10.0\Orders.Domain.sourcelink.json
 C:\event-driven-orders_Net\Orders.Domain\obj\Debug\net10.0\Orders.Domain.dll
 C:\event-driven-orders_Net\Orders.Domain\obj\Debug\net10.0\refint\Orders.Domain.dll
 C:\event-driven-orders_Net\Orders.Domain\obj\Debug\net10.0\Orders.Domain.pdb
