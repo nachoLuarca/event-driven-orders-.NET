@@ -30,7 +30,7 @@ Cliente → Orders.Api → RabbitMQ → Orders.Worker → SQL Server
 
 ---
 
-# 🔄 Flujo de funcionamiento
+# 🔄 Flujo de funcionamiento  
 
 1. El cliente envía una orden a la API
 2. La API publica el mensaje en RabbitMQ
